@@ -112,7 +112,7 @@ export default function RoomFilter({ rooms }) {
         </div>
         {/* end of size */}
         {/* extras  */}
-        <div className="form-group">
+        {/* <div className="form-group">
           <div className="single-extra">
             <input
               type="checkbox"
@@ -133,7 +133,7 @@ export default function RoomFilter({ rooms }) {
             />
             <label htmlFor="pets">pets</label>
           </div>
-        </div>
+        </div> */}
         {/* end of extras  */}
       </form>
     </section>
