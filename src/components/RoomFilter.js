@@ -17,8 +17,8 @@ export default function RoomFilter({ rooms }) {
     maxPrice,
     minSize,
     maxSize,
-    breakfast,
-    pets
+    // breakfast,
+    // pets
   } = context;
   // get unique types
   let types = getUnique(rooms, "type");
